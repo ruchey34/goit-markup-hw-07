@@ -1,0 +1,36 @@
+.social-media{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+.social-media_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    color: #AFB1B8;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover{
+        background: #2196F3;
+        color: #FFFFFF;
+    }
+}
+.social-media_icon{
+    fill: currentColor;
+}
+.social-media_paragraph{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
