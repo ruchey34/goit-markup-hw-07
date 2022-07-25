@@ -1,10 +1,10 @@
 .activities{
     padding-bottom: 94px;
 }
-.activities_list{
+.activities__list{
     display: flex;
 }
-.activities_item{
+.activities__item{
     display: flex;
     position: relative;
     justify-content: center;
@@ -14,10 +14,10 @@
         margin-right: 30px;
     }
 }
-.activities_img{
+.activities__img{
     position: relative;
 }
-.activities_paragraph{
+.activities__paragraph{
     position: absolute;
     font-family: 'Roboto';
     font-style: normal;
@@ -33,7 +33,7 @@
     padding-top: 27px;
     padding-bottom: 27px;
 }
-.activities_header{
+.activities__header{
     font-family: 'Roboto';
     color: var(--header-color);
     font-style: normal;

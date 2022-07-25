@@ -1,10 +1,10 @@
-.checkbox_label{
+.checkbox__label{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
 }
-.checkbox_text{
+.checkbox__text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -13,7 +13,7 @@
     letter-spacing: 0.03em;
     color: #757575;
 }
-.checkbox_form-check{
+.checkbox__form-check{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,19 +25,19 @@
     background-color: #FFFFFF;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .checkbox_check:checked &{
+    .checkbox__check:checked &{
         border-color: var(--animation-color);
         background-color: var(--animation-color);
     }
 }
-.checkbox-link{
+.checkbox__link{
     text-decoration-line: underline;
     color: var(--animation-color);
 }
-.checkbox_icon-check{
+.checkbox__icon-check{
     fill: #FFFFFF;
 }
-.checkbox_btn{
+.checkbox__btn{
     width: 200px;
     height: 50px;
     margin: 0 124px;
@@ -51,7 +51,7 @@
         background-color: var(--animation-color);
     }
 }
-.checkbox_btn-text{
+.checkbox__btn-text{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;

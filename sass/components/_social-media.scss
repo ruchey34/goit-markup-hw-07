@@ -4,7 +4,7 @@
     gap: 10px;
     margin-top: 16px;
 }
-.social-media_link{
+.social-media__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,10 +21,10 @@
         color: #FFFFFF;
     }
 }
-.social-media_icon{
+.social-media__icon{
     fill: currentColor;
 }
-.social-media_paragraph{
+.social-media__paragraph{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
